@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.plugin.compose'
+}
+
+android {
+    namespace 'com.roboff.lan'
+    compileSdk 36
+    useLibrary 'android.test.runner'
+    useLibrary 'android.test.base'
+    buildFeatures { compose true }
+
+    defaultConfig {
+        applicationId 'com.roboff.lan'
+        minSdk 26
+        targetSdk 36
+        versionCode 7
+        versionName '0.7.0'
+        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions { jvmTarget = '17' }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    dependenciesInfo { includeInApk = false; includeInBundle = false }
+}
+
+dependencies {
+    implementation platform('androidx.compose:compose-bom:2025.11.00')
+    androidTestImplementation platform('androidx.compose:compose-bom:2025.11.00')
+    implementation 'androidx.activity:activity-compose:1.12.0'
+    implementation 'androidx.compose.material3:material3:1.4.0'
+    implementation 'androidx.compose.material:material-icons-extended'
+    implementation 'androidx.compose.ui:ui-tooling-preview'
+    debugImplementation 'androidx.compose.ui:ui-tooling'
+    androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
+    debugImplementation 'androidx.compose.ui:ui-test-manifest'
+    implementation 'com.google.android.material:material:1.14.0'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

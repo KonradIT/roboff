@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3Expressive.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/roboff_primary</item>
+        <item name="colorOnPrimary">@color/roboff_on_primary</item>
+        <item name="colorPrimaryContainer">@color/roboff_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/roboff_on_primary_container</item>
+        <item name="colorSecondary">@color/roboff_secondary</item>
+        <item name="colorOnSecondary">@color/roboff_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/roboff_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/roboff_on_secondary_container</item>
+        <item name="colorTertiary">@color/roboff_tertiary</item>
+        <item name="colorOnTertiary">@color/roboff_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/roboff_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/roboff_on_tertiary_container</item>
+        <item name="android:colorBackground">@color/roboff_surface</item>
+        <item name="colorSurface">@color/roboff_surface</item>
+        <item name="colorSurfaceDim">@color/roboff_surface_dim</item>
+        <item name="colorSurfaceBright">@color/roboff_surface_bright</item>
+        <item name="colorSurfaceContainerLowest">@color/roboff_surface_container_lowest</item>
+        <item name="colorSurfaceContainerLow">@color/roboff_surface_container_low</item>
+        <item name="colorSurfaceContainer">@color/roboff_surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/roboff_surface_container_high</item>
+        <item name="colorSurfaceContainerHighest">@color/roboff_surface_container_highest</item>
+        <item name="colorOnSurface">@color/roboff_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/roboff_on_surface_variant</item>
+        <item name="colorOnBackground">?attr/colorOnSurface</item>
+        <item name="colorSurfaceVariant">?attr/colorSurfaceContainerHighest</item>
+        <item name="colorOutline">@color/roboff_outline</item>
+        <item name="colorOutlineVariant">@color/roboff_outline_variant</item>
+        <item name="colorError">@color/roboff_error</item>
+        <item name="colorOnError">@color/roboff_on_error</item>
+        <item name="colorErrorContainer">@color/roboff_error_container</item>
+        <item name="colorOnErrorContainer">@color/roboff_on_error_container</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="android:colorAccent">?attr/colorPrimary</item>
+        <item name="materialButtonStyle">@style/Widget.Roboff.Button.Primary</item>
+        <item name="materialButtonTonalStyle">@style/Widget.Roboff.Button.Tonal</item>
+        <item name="textInputStyle">@style/Widget.Roboff.TextInputLayout</item>
+        <item name="materialCardViewStyle">@style/Widget.Roboff.Card</item>
+        <item name="android:windowLightStatusBar">@bool/roboff_light_system_bars</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">?attr/colorSurface</item>
+    </style>
+    <style name="Widget.Roboff.Button.Primary" parent="Widget.Material3Expressive.Button">
+        <item name="materialSizeOverlay">@style/SizeOverlay.Material3Expressive.Button.Medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Widget.Roboff.Button.Tonal" parent="Widget.Material3Expressive.Button.TonalButton">
+        <item name="materialSizeOverlay">@style/SizeOverlay.Material3Expressive.Button.Medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="Widget.Roboff.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+    <style name="Widget.Roboff.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">?attr/colorSurfaceContainer</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Roboff.Card</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Roboff.Card" parent="">
+        <item name="cornerSize">28dp</item>
+    </style>
+</resources>

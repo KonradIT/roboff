@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/robot_progress_circle"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:layout_gravity="top|center_horizontal">
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/robot_progress_indicator"
+            style="@style/Widget.Roboff.RobotProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:max="100"
+            android:importantForAccessibility="yes"
+            app:indicatorSize="180dp" />
+        <com.roboff.lan.VacuumView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no" />
+    </FrameLayout>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/robot_progress_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="28dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:importantForAccessibility="no"
+        android:textAppearance="?attr/textAppearanceLabelLarge"
+        android:textColor="?attr/colorOnSurfaceVariant" />
+</merge>

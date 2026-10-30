@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rooms_title">Choose rooms</string>
+    <string name="rooms_subtitle">A little attention, just where you need it.</string>
+    <string name="rooms_select_all">Select all</string>
+    <string name="rooms_clear">Clear</string>
+    <string name="rooms_refresh">Refresh rooms</string>
+    <string name="rooms_selection_count">%1$d of %2$d selected</string>
+    <string name="rooms_rename">Rename %1$s</string>
+    <string name="rooms_selected">Selected</string>
+    <string name="rooms_not_selected">Not selected</string>
+    <string name="rooms_passes_title">Cleaning passes</string>
+    <string name="rooms_passes_description">How many times to clean each room.</string>
+    <string name="rooms_pass_once">1×</string>
+    <string name="rooms_pass_twice">2×</string>
+    <string name="rooms_pass_three">3×</string>
+    <string name="rooms_pass_accessible">%1$d cleaning passes</string>
+    <string name="rooms_pass_once_accessible">1 cleaning pass</string>
+    <string name="rooms_loading_title">Loading your rooms…</string>
+    <string name="rooms_refreshing_title">Refreshing rooms…</string>
+    <string name="rooms_loading_description">Reading rooms directly from your vacuum.</string>
+    <string name="rooms_error_title">Couldn’t refresh rooms</string>
+    <string name="rooms_retry">Try again</string>
+    <string name="rooms_empty_title">Your rooms will appear here</string>
+    <string name="rooms_empty_description">Refresh to read the rooms saved on your vacuum.</string>
+    <string name="rooms_load">Load rooms</string>
+    <string name="rooms_offline_title">Connect to your vacuum</string>
+    <string name="rooms_offline_description">Join the same Wi-Fi network to load its rooms.</string>
+    <string name="rooms_cached_title">Your selection is saved</string>
+    <string name="rooms_cached_description">Connect to your vacuum on the same Wi-Fi to start cleaning.</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fallback for devices without a system dynamic color palette. -->
+    <color name="roboff_primary">#D6F68A</color>
+    <color name="roboff_on_primary">#213600</color>
+    <color name="roboff_primary_container">#374D17</color>
+    <color name="roboff_on_primary_container">#E6FFB4</color>
+    <color name="roboff_secondary">#BECCB6</color>
+    <color name="roboff_on_secondary">#293624</color>
+    <color name="roboff_secondary_container">#3D4B38</color>
+    <color name="roboff_on_secondary_container">#D8E8D0</color>
+    <color name="roboff_tertiary">#A5D1CC</color>
+    <color name="roboff_on_tertiary">#073733</color>
+    <color name="roboff_tertiary_container">#25504C</color>
+    <color name="roboff_on_tertiary_container">#C1EDE8</color>
+    <color name="roboff_surface">#101B1C</color>
+    <color name="roboff_surface_dim">#0C1516</color>
+    <color name="roboff_surface_bright">#324042</color>
+    <color name="roboff_surface_container_lowest">#0B1415</color>
+    <color name="roboff_surface_container_low">#152021</color>
+    <color name="roboff_surface_container">#1B2929</color>
+    <color name="roboff_surface_container_high">#243331</color>
+    <color name="roboff_surface_container_highest">#30423E</color>
+    <color name="roboff_on_surface">#F2F5EB</color>
+    <color name="roboff_on_surface_variant">#BDCAC2</color>
+    <color name="roboff_outline">#88968D</color>
+    <color name="roboff_outline_variant">#3C4B43</color>
+    <color name="roboff_error">#FFB4AB</color>
+    <color name="roboff_on_error">#690005</color>
+    <color name="roboff_error_container">#93000A</color>
+    <color name="roboff_on_error_container">#FFDAD6</color>
+</resources>

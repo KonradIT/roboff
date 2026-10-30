@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Roboff.RobotProgress" parent="Widget.Material3Expressive.CircularProgressIndicator.Wavy">
+        <item name="indicatorColor">?attr/colorPrimary</item>
+        <item name="trackColor">?attr/colorSurfaceContainerHighest</item>
+        <item name="trackThickness">8dp</item>
+        <item name="trackCornerRadius">4dp</item>
+        <item name="indicatorInset">6dp</item>
+        <item name="indicatorTrackGapSize">6dp</item>
+        <item name="waveAmplitude">3dp</item>
+        <item name="wavelength">28dp</item>
+        <item name="waveSpeed">0dp</item>
+        <item name="showAnimationBehavior">none</item>
+        <item name="hideAnimationBehavior">none</item>
+    </style>
+</resources>
